@@ -5,20 +5,21 @@ object Presentation {
   val `Giovanni De Facci` = PassionateProgrammer(
     name = "Giovanni De Facci",
     age = 43,
+    recentPhoto = Url("https://en.wikipedia.org/wiki/Lambda#/media/File:Greek_lc_lamda_thin.svg"),
     programmingSince = TheEarly90s,
     mainInterests = LoveTheseThings(
       FunctionalProgramming,
       TypeSystems,
       Compilers
     ),
-    programminLanguages = VeryConfortableWith(
+    programmingLanguages = VeryConfortableWith(
       Scala,
       Purescript,
       Haskell
     ) ++ UseRegularly(
       Java,
       Typescript
-    ) ++ BlowedUpMyMynd(
+    ) ++ BlowedUpMyMind(
       Idris
     ) ++ Learning(
       Rust
@@ -43,14 +44,22 @@ object Presentation {
         Cycling
       )
     ) ++ ILoveListening(
-      TonOfMusic(
+      TonsOfMusic(
         MetalThatIsNotTooBoring,
         DarkIndustrialNoise,
         ProgressiveRockWhenNotCloningGenesis,
-        AmbientPsydubTechnoWeirdElectronics,
-        NoiseyGanstaHipHopRap,
+        AmbientPsyDubTechnoWeirdElectronics,
+        NoisyGangstaHipHopRap,
         OtherUncategorizedWeirdStuff
       )
+    ),
+    definitivelyNotInterestedIn = BoringThings(
+      Politics,
+      Football,
+      DynamicProgrammingLanguages,
+      TvCinemaNetflixPokemonsStarWars,
+      SportsWatching,
+      TooConventionalMusic
     ),
     loveCats = sureGoodPeopleLoveCats,
     butIAlsoLoveDogs = true,
@@ -58,10 +67,10 @@ object Presentation {
   )
 
   def main(args: Array[String]): Unit = {
-    onlyUsefullProgramsPerformSideEffects()
+    onlyUsefulProgramsPerformSideEffects()
   }
 
-  fullCodeIsHere = "https://github.com/zextrasGiovanniDefacci/presentation"
+  submitYourPullRequest = Url("https://github.com/zextrasGiovanniDefacci/presentation")
 
 }
 
